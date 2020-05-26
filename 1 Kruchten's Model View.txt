@@ -1,15 +1,34 @@
 Kruchten's 4 + 1 Model View
-
+	This model view is important as it helps to think about the system in various perspective.
+	We might forget about various different aspects about system when only one view is considered.
+	We can mould the views according to use case but in general there are 4 view and 1 scenarios.
 4)
-	logical view: functionality (it focuses on how close the system serves as the client's requirements)
-		and what objects will be there in the system
+	logical view: 
+		i. focuses on functionality (it focuses on how close the system serves as the client's requirements)
+		ii. what objects will be there in the system
+		iii. Context: What services will be provided to the end users
+		(UML Class diagram)
 
-	process view: focuses on how well the OBJECTs mentioned in logical views interact and system executes in overall. also how efficient the system is, how scalable the system is... what processes are running and how these processes are interacting with eachother
-	this view is more of a technical view and is very important as well
+	process view: 
+		i. focuses on non-functional aspects such as performance, availability, efficiency
+		ii. explains how well the OBJECTs mentioned in logical views interact and system executes in overall. (Where data goes , in what ORDER processes occur)
+		iii. also how efficient the system is, how scalable the system is... what processes are running and how these processes are interacting with eachother
+		iv. this view is more of a technical view and is very important as well
+		(UML Sequence diagram)
+		(UML Activity diagram)
 
-	development view: implementation of software. choose a stack , programming language, work herarchially
+	development view: 
+		i. implementation of software. choose a stack , programming language, toolset, libraries, work herarchially
+		(Work assignments)
+		(Scheduling tasks)
+		(Budgeting)
 
-	physical view: physical components(such separate server for database and webclient) , deployements
+
+
+	physical view: 
+		i. physical components(such separate server for database and webclient) , deployements
+		ii. how elements in logical, process and development views must be mapped to different nodes or hardware
+		(UML Deployment diagram)
 
 1)
 Scenario: use case, end user's requirements
