@@ -1,0 +1,3 @@
+logical view: functionality (it focuses on how close the system serves as the client's requirements)
+
+process view: focuses on how efficient the system is ... what processes are used and how these processes are interacting with eachother
