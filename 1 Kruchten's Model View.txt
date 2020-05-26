@@ -1,0 +1,15 @@
+Kruchten's 4 + 1 Model View
+
+4)
+	logical view: functionality (it focuses on how close the system serves as the client's requirements)
+		and what objects will be there in the system
+
+	process view: focuses on how well the OBJECTs mentioned in logical views interact and system executes in overall. also how efficient the system is, how scalable the system is... what processes are running and how these processes are interacting with eachother
+	this view is more of a technical view and is very important as well
+
+	development view: implementation of software. choose a stack , programming language, work herarchially
+
+	physical view: physical components(such separate server for database and webclient) , deployements
+
+1)
+Scenario: use case, end user's requirements
