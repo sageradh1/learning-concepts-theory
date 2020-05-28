@@ -1,0 +1,26 @@
+UML deployment diagram is used to visualize these deployment details for a software system.
+
+The deployment environment or deployment target can be very SPECIFIC involving particular hardware devices 
+or fairly GENERAL, involving supported operating systems.
+
+It generally includes the following things:
+    1. Artifacts 
+    2. Libraries 
+    3. Main components
+    4. Machines 
+    5. Devices
+
+The term artifact refers to the result of the development process. 
+For example, artifacts for a video game would include things like an executable to run the game, an installer to install the game, 
+audio libraries to manage audio, and multimedia assets.
+Similarly, war files are artifact in Java deployments.
+
+There are two different types of deployment diagrams:
+    1. Specification level diagrams:
+        A specification level diagram gives an overview of artifacts and deployment targets, without referencing specific details like machine names. 
+        It focuses on a general overview of your deployment rather than the specifics. 
+    2. Instance level diagrams:
+        An instance level diagram is a much more specific approach, which can map a specific artifact to a specific deployment target. 
+        In particular, the instance level diagram can identify specific machines and hardware devices. 
+        Most commonly, this approach is used to highlight the differences in deployments among development, staging, and release builds.
+
