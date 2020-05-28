@@ -1,0 +1,13 @@
+This diagram is used to show high level behaviour of the system how controls flow from one activity to another.
+They dont care about the implementation.
+
+Activity refers to certain action that the user can perform to change the flow of the game.
+
+full ball (Complete circle)      = starting state
+half ball (ring around a circle) = ending state
+pill like diagram = intermediate activity
+
+Sometimes two or more things happen concurrently or sometimes they end simultaneously. Suppose when user starts a level and sounds also starts.
+These are two different task happening concurrently. Partitions are boxes or divisions used in this case. Starting the game in one partition will
+initiate sound task in another partition.
+
