@@ -1,0 +1,13 @@
+When you create object-oriented software, classes are used and they interact with eachother.
+
+Suppose we need several classes to handle different functionalities like player, movement, combat, dialogue etc.
+A package groups together elements of your software that are related.
+
+A package also defines a namespace for the elements it contains, that is, a package is named, and can organize the named elements of your software into a separate scope.
+
+Package diagrams show packages and the dependencies between them.
+
++ = "import" keyword = public import
+- = "access" keyword = private import
+
+Important to show relationships between the package

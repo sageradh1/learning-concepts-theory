@@ -1,0 +1,7 @@
+Components are defined as independent, encapsulated units within a system.
+What sets component diagrams apart from a lot of other diagrams is that they are about high-level structure and not about details like attributes and methods.
+
+Interface refers to the way for communication between both.
+Ball-socket connectors are used to show interface between the components. 
+here, socket refers to "required" interface that shows it expects a certain interface provided by some other component to be able to achieve its responsibilities
+ball refers to "provided" interface that matches the above mentioned "required" component.
