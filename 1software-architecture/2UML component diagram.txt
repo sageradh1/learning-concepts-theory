@@ -5,3 +5,5 @@ Interface refers to the way for communication between both.
 Ball-socket connectors are used to show interface between the components. 
 here, socket refers to "required" interface that shows it expects a certain interface provided by some other component to be able to achieve its responsibilities
 ball refers to "provided" interface that matches the above mentioned "required" component.
+
+Also third party libraries should be mentioned if any are used.
