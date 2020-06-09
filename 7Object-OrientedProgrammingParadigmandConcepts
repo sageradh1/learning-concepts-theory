@@ -1,0 +1,32 @@
+Each programming paradigm has its own set of constructs and their use will shape the system you create
+
+Two programming paradigms are:
+    1. Object-Oriented Programming Paradigm
+    2. Procedural Programming Paradigm
+
+Object-Oriented Programming Paradigm:
+    Suitable when the avalaible entities can be modelled into definite objects/classes in the requirements.
+
+    Concepts review in Object oriented programming:
+
+        Abstraction:
+            With abstraction, you can simplify a concept by ignoring unimportant details.
+
+        Encapsulation:
+            Encapsulation allows you to bundle data and functions into a self-contained object. So that other objects can interact with it through an exposed interface. 
+            
+        Decomposition:
+            It which allows you to break up a whole problem into smaller, distinct parts.
+            
+        Generalization:
+            It allows you to factor out conceptual commonalities. 
+            
+        We also have object-oriented design patterns at our disposal.
+        Object-oriented design patterns fall into 3 categories:
+        1. Creational:
+            Creational patterns guide you in creating new objects.
+        2. Structural:
+            Structural patterns describe the relationships between objects and the interactions between classes and subclasses. 
+        3. Behavioral:
+            Behavioral patterns focus on how objects perform work individually and how they can work as a group to accomplish something. Together, elements like these will lead to an object-oriented architectural style for the system. The object-oriented architectural style is focused on the data. When presented with a system to model, you may begin by looking at the different kinds of data handled by the system to see how the system can be broken down into abstract data types. An abstract data type can be represented as a class that you define to organize data attributes in a meaningful way, so that related attributes are grouped together, along with their associated methods. An encapsulation restricts access to the data and dictates what can be done with it. Object-oriented refers to a system composed of objects, where each object is an instance of a class. In other words, the type of each object is its class. Objects may interact with each other through the use of their methods. The object-oriented paradigm allows for inheritance among abstract data types. This means that one abstract type can be declared an extension of another type. These classes themselves form a language-based architecture that arises from basic object oriented principles. The classes within the system will determine the overall structure of the system.
+
