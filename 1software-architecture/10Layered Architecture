@@ -1,0 +1,17 @@
+
+Systems can be divided into separate layers such as :
+    1. Presentation layer(highest)
+    2. Bussiness layer (lower)
+    3. Data layer (lowest)
+
+Data are passed from lower layer to higher layer.
+Benefit of layers:
+    1. Separation of concern
+    2. Loosy coupled system (one layer doesnt need to have knowledge about every other layers)
+
+Disadvantage:
+    1. Increase in overhead as communication will always happen through certain number of layers.
+
+If communication is always happening between two layers without need of intermediate layers, then we must reconsider 
+our design architecture and might change the architecture to other.
+

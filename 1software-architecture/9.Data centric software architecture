@@ -1,0 +1,46 @@
+If we use database then we can call the approach to be data centric software architecture.
+
+
+We could also store the data in normal file in disk but there will come issue such as 
+maintaining data format and file type etc
+
+A system way is to use database.
+Database provide two major solutions:
+    1. Data integrity
+        This ensure data are stored in only certain format we want and thus maintain data integrity.
+    2. Data persistance
+        Once the program is terminated, all the data are lost so database will help to store the data for future use.
+    3. Data access
+        Once data is stored persistantly, the data can be shared between different components by the use of data accessors.
+
+Database has major two components:
+    1. Central data
+    2. Data accessors
+
+DBMS are used to managing database.
+
+Query = asking database for something
+Transaction = (not money transaction) telling database to do something
+
+DBMS help in :
+    1. Data integrity
+    2. Data backup
+    3. Data restoration
+
+These feature will help during issues such as:
+    1. Data loss
+    2. Data corruption
+    3. Data migration
+
+Other importance:
+    1. Since data is stored centrally, data accessor can be independent so it reduces overhead caused by communication 
+    between data accessors.
+    2. Easy scaling up of the application.
+    3. Stable system, good performance and maintainibility
+
+Disadvantages:
+    1. System relies too much on database.
+        In case of database server failure, data loss or corruption in database, system stops functioning well.
+
+    Safeguards to reduce disadvantages:
+    1. Data replication (redundancy) in different physical locations.
