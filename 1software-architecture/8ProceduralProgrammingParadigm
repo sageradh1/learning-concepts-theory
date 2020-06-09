@@ -1,0 +1,12 @@
+
+Procedural Programming Paradigm:
+
+    Suitable for system where computation is focused. better for small systems and simple solutions.
+
+    In this paradigm, Main program and subroutines are used to create systems.
+
+    Modularity and reuse
+
+    There is heirachy in execution. the diagram is called Call tree because main program branches out to subroutines.
+    Subrountines further call other sub-routines.
+
