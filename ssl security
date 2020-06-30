@@ -1,0 +1,31 @@
+SSL = Secure Sockets Layer
+
+SSL provides a secure link between a client (a browser or an email client) and a server (a website or a mail server). 
+The SSL security protocol determines the variables of the encryption for the data and link. 
+To keep your server data secure, you need to create a security certificate. 
+
+There are two options:
+1) Self-Signed Certificate
+2) Signed Certificate from a Certified Authority(CA)
+
+Security wise both ensure equal encryption between client and server. 
+However, CA certificate ensures the ownership of the server . so people prefer to have CA certificate when the webapp
+handle credit card information or other important data.
+
+For website in development and that dont contain very important information, self-signed certificate can be used.
+
+
+Had to stop docker container because it was already using port 80 and certbot was not being able to use it to generation of new certificate:
+Now, as it has been generated we can backup (etc/letsencrypt)secret pem and key ... specially inside live folder
+
+Dont forget to redirect http to https
+
+
+A(http) or AAAA(https) records = yourbasket.com     = points to IP 32.121.123.123
+Alias/CName                    = www.yourbasket.com = other name/variation of main domain / A records
+                               = docs.google.com
+                               = mail.google.com  
+MX  = for mail server
+PTR = for pointing
+SOA = State of authority created when zones are declared they include NS
+NS = nameserver
